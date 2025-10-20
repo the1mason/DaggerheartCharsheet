@@ -1,0 +1,94 @@
+/* Orange color for dark color scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme=dark] {
+    --pico-text-selection-color: rgba(195, 234, 255, 0.37);
+    --pico-primary: #C3EAFF;
+    --pico-primary-background: rgba(126, 209, 255, 0.32);
+    --pico-primary-underline: rgba(195, 234, 255, 0.25);
+    --pico-primary-hover: #C3EAFF;
+    --pico-primary-hover-background: rgba(126, 209, 255, 0.60);
+    --pico-primary-focus: rgba(195, 234, 255, 0.90);
+    --pico-primary-inverse: #fff;
+
+    --pico-secondary: #C3EAFF;
+    --pico-secondary-background: rgba(195, 234, 255, 0.16);
+    --pico-secondary-underline: rgba(195, 234, 255, 0.25);
+    --pico-secondary-hover: #C3EAFF;
+    --pico-secondary-hover-background: rgba(195, 234, 255, 0.40);
+    --pico-secondary-focus: rgba(195, 234, 255, 0.90);
+    --pico-secondary-inverse: #fff;
+
+    --pico-background-color: #0f1a27;
+    --pico-card-background-color: #132232;
+    --pico-card-sectioning-background-color: #17273a;
+
+    --pico-form-element-background-color: #ffffff08;
+    --pico-form-element-active-background-color: #ffffff0D;
+
+    --pico-tip: #c5ffc3;
+    --pico-tip-background: rgba(197, 255, 195, 0.16);
+    --pico-tip-underline: rgba(197, 255, 195, 0.25);
+    --pico-tip-hover: #c5ffc3;
+    --pico-tip-hover-background: rgba(197, 255, 195, 0.40);
+    --pico-tip-focus: rgba(197, 255, 195, 0.90);
+
+    --pico-important: rgb(235, 195, 255);
+    --pico-important-background: rgba(235, 195, 255, 0.16);
+    --pico-important-underline: rgba(235, 195, 255, 0.25);
+    --pico-important-hover: rgb(235, 195, 255);
+    --pico-important-hover-background: rgba(235, 195, 255, 0.40);
+    --pico-important-focus: rgba(235, 195, 255, 0.90);
+
+    --pico-warning: rgb(255, 137, 55);
+    --pico-warning-background: rgba(255, 137, 55, 0.16);
+    --pico-warning-underline: rgba(255, 137, 55, 0.25);
+    --pico-warning-hover: rgb(255, 137, 55);
+    --pico-warning-hover-background: rgba(255, 137, 55, 0.40);
+    --pico-warning-focus: rgba(255, 137, 55, 0.90);
+
+    --pico-danger: rgb(255, 55, 55);
+    --pico-danger-background: rgba(255, 55, 55, 0.16);
+    --pico-danger-underline: rgba(255, 55, 55, 0.25);
+    --pico-danger-hover: rgb(255, 55, 55);
+    --pico-danger-hover-background: rgba(255, 55, 55, 0.40);
+    --pico-danger-focus: rgba(255, 55, 55, 0.90);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    --pico-font-family: 'Fira Code', Roboto, sans-serif;
+}
+
+hr {
+    border-color: var(--pico-secondary-background);
+}
+
+a {
+    color: inherit;
+    text-decoration-color: inherit;
+}
+
+a {
+    color: #C3EAFF;
+}
+
+a:not(:hover) {
+    text-decoration: none;
+}
+
+html {
+    font-size: 14px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+body>header {
+    margin: 0;
+    padding-block: 0;
+}
