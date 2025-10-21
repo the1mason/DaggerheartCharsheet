@@ -1,6 +1,6 @@
 ﻿namespace DaggerheartCharsheet.Core.Constants.DomainCards;
 
-public static class GraceCardType
+public static class GraceCardName
 {
     public const string DeftDeceiver = "DeftDeceiver";
     public const string Enrapture = "Enrapture";

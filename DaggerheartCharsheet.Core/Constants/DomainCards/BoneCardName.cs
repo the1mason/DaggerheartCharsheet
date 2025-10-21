@@ -1,6 +1,6 @@
 ﻿namespace DaggerheartCharsheet.Core.Constants.DomainCards;
 
-public static class BoneCardType
+public static class BoneCardName
 {
     public const string DeftManeuvers = "DeftManeuvers";
     public const string SeeItComing = "SeeItComing";

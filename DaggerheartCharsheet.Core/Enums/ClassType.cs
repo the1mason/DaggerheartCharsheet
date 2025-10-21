@@ -5,6 +5,7 @@ namespace DaggerheartCharsheet.Core.Enums;
 [EnumExtensions]
 public enum ClassType
 {
+    // core
     Bard,
     Druid,
     Guardian,
@@ -14,6 +15,8 @@ public enum ClassType
     Sorcerer,
     Warrior,
     Wizard,
+    
+    // void
     Assassin,
     Brawler,
     Warlock,

@@ -1,6 +1,6 @@
 ﻿namespace DaggerheartCharsheet.Core.Constants.DomainCards;
 
-public static class ValorCardType
+public static class ValorCardName
 {
     public const string BareBones = "BareBones";
     public const string ForcefulPush = "ForcefulPush";

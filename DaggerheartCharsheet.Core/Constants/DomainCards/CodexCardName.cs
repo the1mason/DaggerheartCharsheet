@@ -1,6 +1,6 @@
 ﻿namespace DaggerheartCharsheet.Core.Constants.DomainCards;
 
-public static class CodexCardType
+public static class CodexCardName
 {
     public const string BookOfAva = "BookOfAva";
     public const string BookOfIlliat = "BookOfIlliat";

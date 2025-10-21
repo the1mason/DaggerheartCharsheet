@@ -1,6 +1,6 @@
 ﻿namespace DaggerheartCharsheet.Core.Constants.DomainCards;
 
-public static class SageCardType
+public static class SageCardName
 {
     public const string GiftedTracker = "GiftedTracker";
     public const string NaturesTongue = "NaturesTongue";

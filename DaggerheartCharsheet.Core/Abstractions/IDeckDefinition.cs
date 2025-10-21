@@ -1,14 +1,18 @@
 ﻿using DaggerheartCharsheet.Core.Enums;
+using DaggerheartCharsheet.Core.Models;
+using DaggerheartCharsheet.Core.Models.Cards;
 
 namespace DaggerheartCharsheet.Core.Abstractions;
 
-public interface IGameDefinition
+public interface IDeckDefinition
 {
     GameVersionType Version { get; }
     GameVersionType[] CompatibleVersions { get; }
     AncestryType[] Ancestries { get; }
     CommunityCardType[] Communities { get; }
-    ClassType[] Classes { get; }
+    CharacterClass[] Classes { get; }
     Dictionary<ClassType, SubclassType[]> Subclasses { get; }
+    SubclassCard[] SubclassCards { get; }
     DomainType[] Domains { get; }
+    DomainCard[] DomainCards { get; }
 }

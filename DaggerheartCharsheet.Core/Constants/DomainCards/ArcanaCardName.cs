@@ -1,6 +1,6 @@
 ﻿namespace DaggerheartCharsheet.Core.Constants.DomainCards;
 
-public static class ArcanaCardType
+public static class ArcanaCardName
 {
     public const string RuneWard = "RuneWard";
     public const string UnleashChaos = "UnleashChaos";

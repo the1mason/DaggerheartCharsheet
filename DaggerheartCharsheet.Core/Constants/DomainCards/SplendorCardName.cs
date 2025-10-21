@@ -1,6 +1,6 @@
 ﻿namespace DaggerheartCharsheet.Core.Constants.DomainCards;
 
-public static class SplendorCardType
+public static class SplendorCardName
 {
     public const string BoltBeacon = "BoltBeacon";
     public const string MendingTouch = "MendingTouch";

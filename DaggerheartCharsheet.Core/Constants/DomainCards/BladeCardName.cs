@@ -1,6 +1,6 @@
 ﻿namespace DaggerheartCharsheet.Core.Constants.DomainCards;
 
-public static class BladeCardType
+public static class BladeCardName
 {
     public const string GetBackUp = "GetBackUp";
     public const string NotGoodEnough = "NotGoodEnough";
