@@ -37,12 +37,12 @@ public class Core202509DeckDefinition : IDeckDefinition
         AncestryType.Smiah
     ];
 
-    public CommunityCardType[] Communities { get; } =
+    public CommunityType[] Communities { get; } =
     [
-        CommunityCardType.Seaborne,
-        CommunityCardType.Wanderborne,
-        CommunityCardType.Wildborne,
-        CommunityCardType.Underborne
+        CommunityType.Seaborne,
+        CommunityType.Wanderborne,
+        CommunityType.Wildborne,
+        CommunityType.Underborne
     ];
 
     public CharacterClass[] Classes { get; } =

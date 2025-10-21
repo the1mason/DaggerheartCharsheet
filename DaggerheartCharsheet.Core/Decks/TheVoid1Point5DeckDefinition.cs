@@ -22,7 +22,7 @@ public class TheVoid1Point5DeckDefinition : IDeckDefinition
         AncestryType.Tidekin
     ];
 
-    public CommunityCardType[] Communities { get; } = [];
+    public CommunityType[] Communities { get; } = [];
 
     public CharacterClass[] Classes { get; } =
     [

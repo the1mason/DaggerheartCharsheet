@@ -3,7 +3,7 @@
 namespace DaggerheartCharsheet.Core.Enums;
 
 [EnumExtensions]
-public enum CommunityCardType
+public enum CommunityType
 {
     // i only made my players' communities for now
     // core
