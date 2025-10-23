@@ -10,7 +10,7 @@ public interface IDeckDefinition
     GameVersionType[] CompatibleVersions { get; }
     AncestryType[] Ancestries { get; }
     CommunityType[] Communities { get; }
-    CharacterClass[] Classes { get; }
+    ClassType[] Classes { get; }
     Dictionary<ClassType, SubclassType[]> Subclasses { get; }
     SubclassCard[] SubclassCards { get; }
     DomainType[] Domains { get; }

@@ -45,17 +45,17 @@ public class Core202509DeckDefinition : IDeckDefinition
         CommunityType.Underborne
     ];
 
-    public CharacterClass[] Classes { get; } =
+    public ClassType[] Classes { get; } =
     [
-        new (ClassType.Bard, DomainType.Grace, DomainType.Codex),
-        new (ClassType.Druid, DomainType.Sage, DomainType.Arcana),
-        new (ClassType.Guardian, DomainType.Valor, DomainType.Blade),
-        new (ClassType.Ranger, DomainType.Bone, DomainType.Sage),
-        new (ClassType.Rouge, DomainType.Midnight, DomainType.Grace),
-        new (ClassType.Seraph, DomainType.Splendor, DomainType.Valor),
-        new (ClassType.Sorcerer, DomainType.Arcana, DomainType.Midnight),
-        new (ClassType.Warrior, DomainType.Blade, DomainType.Bone),
-        new (ClassType.Wizard, DomainType.Codex, DomainType.Splendor)
+        //ClassType.Bard,
+        ClassType.Druid,
+        //ClassType.Guardian,
+        //ClassType.Ranger,
+        //ClassType.Rouge,
+        ClassType.Seraph,
+        //ClassType.Sorcerer,
+        //ClassType.Warrior,
+        //ClassType.Wizard
     ];
 
     public Dictionary<ClassType, SubclassType[]> Subclasses { get; } = new()

@@ -1,6 +1,19 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add localization services
+builder.Services.AddLocalization(options =>
+{
+    options.ResourcesPath = "Resources";
+});
+
+string[] supportedCultures =  ["en", "ru"];
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    options.SetDefaultCulture("en");
+    options.AddSupportedCultures(supportedCultures);
+    options.AddSupportedUICultures(supportedCultures);
+});
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -10,6 +23,10 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+
+// Add localization middleware
+var localizationOptions = app.Services.GetRequiredService<Microsoft.Extensions.Options.IOptions<RequestLocalizationOptions>>().Value;
+app.UseRequestLocalization(localizationOptions);
 
 app.UseStaticFiles();
 

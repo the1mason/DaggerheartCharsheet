@@ -23,13 +23,13 @@ public class TheVoid1Point5DeckDefinition : IDeckDefinition
     ];
 
     public CommunityType[] Communities { get; } = [];
-
-    public CharacterClass[] Classes { get; } =
+    
+    public ClassType[] Classes { get; } =
     [
-        new (ClassType.Assassin, DomainType.Grace, DomainType.Blade),
-        new (ClassType.Brawler, DomainType.Bone, DomainType.Valor),
-        new (ClassType.Warlock, DomainType.Dread, DomainType.Grace),
-        new (ClassType.Witch, DomainType.Dread, DomainType.Sage)
+        //ClassType.Assassin,
+        ClassType.Brawler,
+        //ClassType.Warlock,
+        //ClassType.Witch
     ];
     
     public Dictionary<ClassType, SubclassType[]> Subclasses { get; } = new()

@@ -1,6 +1,24 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AEnumExtensionsAttribute_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fthe1m_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E2_003Fresharper_002Dhost_003FSourcesCache_003Fbcfc42f21f4d9fb707fffbc8c481c997a863699d30e0cceb1c4544e44027_003FEnumExtensionsAttribute_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AIColumnOptionSyntax_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fthe1m_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E2_003Fresharper_002Dhost_003FSourcesCache_003F8e98bb4a9d3f4aa44696dfacec6089b145b79aec6cdb25a9e0692de1e6ceafa5_003FIColumnOptionSyntax_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002ECore_002FResources_002FCore202509/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FResources_002FSharedResource/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FResources_002FSharedResource/@EntryIndexRemoved">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FResources_002FSharedResources/@EntryIndexedValue">False</s:Boolean>
+	
+	
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FResources_002FViews_002FCore202509_002FIndex_002Ecshtml/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FResources_002FViews_002FCore202509_002FIndex_002Ecshtml/@EntryIndexRemoved">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FSharedResource/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FSharedResource/@EntryIndexRemoved">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FSharedResources/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=DaggerheartCharsheet_002EMvc_002FSharedResources/@EntryIndexRemoved">True</s:Boolean>
+	<s:String x:Key="/Default/ResxEditorPersonal/DisabledLanguages/@EntryValue"></s:String>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/OrderByFullPath/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/ShowComments/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/ShowOnlyErrors/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=aetheris/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=charsheet/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=daggerheart/@EntryIndexedValue">True</s:Boolean>

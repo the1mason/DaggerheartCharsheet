@@ -1,0 +1,15 @@
+@using DaggerheartCharsheet.Core
+@using Microsoft.Extensions.Localization
+@using SharedResources = DaggerheartCharsheet.Mvc.SharedResources
+@inject IStringLocalizer<SharedResources> SharedLocalizer
+@inject IStringLocalizer<Core202509> Core202509Localizer
+@model DaggerheartCharsheet.Core.Models.Sheets.Core.SeraphSheet
+
+@{
+    ViewBag.Title = "Seraph Sheet";
+    Layout = "_Layout";
+}
+<div class="container" id="file-list">
+    <h1>@SharedLocalizer["Hello"]</h1>
+    <h1>@Core202509Localizer["Name"]</h1>
+</div>
