@@ -1,0 +1,41 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Sheet_Name" xml:space="preserve">
+        <value>Имя</value>
+    </data>
+    <data name="Section_BasicInfo_Pronouns" xml:space="preserve">
+        <value>Местоимения</value>
+    </data>
+    <data name="Section_BasicInfo_Ancestry" xml:space="preserve">
+        <value>Наслеие</value>
+    </data>
+    <data name="Section_BasicInfo_Subclass" xml:space="preserve">
+        <value>Подкласс</value>
+    </data>
+    <data name="Section_BasicInfo_Level" xml:space="preserve">
+        <value>Уровень</value>
+    </data>
+    <data name="SubclassCardTier_Foundation" xml:space="preserve">
+        <value>Основание</value>
+    </data>
+    <data name="SubclassCardTier_Mastery" xml:space="preserve">
+        <value>Мастерство</value>
+    </data>
+    <data name="SubclassCardTier_Specialization" xml:space="preserve">
+        <value>Специализация</value>
+    </data>
+    <data name="Sheet_Name_Placeholder" xml:space="preserve">
+        <value>Введите Имя</value>
+    </data>
+</root>

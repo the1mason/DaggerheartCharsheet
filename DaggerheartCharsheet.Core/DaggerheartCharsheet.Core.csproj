@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.10" />
     <PackageReference Include="NetEscapades.EnumGenerators" Version="1.0.0-beta14" />
     <PackageReference Include="NetEscapades.EnumGenerators.Interceptors" Version="1.0.0-beta14" />
     <PackageReference Include="RhoMicro.CodeAnalysis.UnionsGenerator" Version="22.0.3">
@@ -20,18 +21,33 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\Core202509.resx">
+    <EmbeddedResource Update="Resources\Locales\Core202509.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Core202509.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Locales\Common.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Common.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\Core202509.Designer.cs">
+    <Compile Update="Resources\Locales\Core202509.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Core202509.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resources\Locales\Common.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Common.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Localization.Abstractions">
+      <HintPath>..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.0\Microsoft.Extensions.Localization.Abstractions.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

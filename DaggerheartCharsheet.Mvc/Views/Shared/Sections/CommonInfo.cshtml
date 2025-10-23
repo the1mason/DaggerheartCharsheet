@@ -1,0 +1,27 @@
+@inject IStringLocalizer<Common> CommonLocalizer
+@inject LocalizationHelper L
+
+@using DaggerheartCharsheet.Core.Enums
+@using DaggerheartCharsheet.Core.Locales
+@using Microsoft.Extensions.Localization
+@model DaggerheartCharsheet.Core.Models.Sheets.CommonSheet
+
+<article>
+    <header style="padding: 0">
+        <label for="Name"
+               style="position: relative; top: -.9rem; height: 0; text-align: center; margin: 0;">
+            <span style="background: var(--pico-card-border-color); border-radius: 100rem; padding: 0.1rem 1.3rem">
+                @CommonLocalizer["Sheet_Name"]
+            </span>
+        </label>
+        <input class="input-light" id="Name" name="Name" value="@Model.Name"
+               placeholder="@CommonLocalizer["Sheet_Name_Placeholder"]"
+               style="font-size: 2rem; font-weight: bold; margin: 0; padding: 0 0.8rem; text-align: center"/>
+    </header>
+    <div style="text-align: center">
+        <h3>@L[GameVersionType.Core202509]["Class_Seraph"]</h3>
+        <h4>@L[GameVersionType.Core202509]["Domain_Splendor"], @L[GameVersionType.Core202509]["Domain_Valor"]</h4>
+        <input type="hidden" name="DomainFirst" value="@DomainType.Splendor"/>
+        <input type="hidden" name="DomainSecond" value="@DomainType.Valor"/>
+    </div>
+</article>

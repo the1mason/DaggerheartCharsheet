@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DaggerheartCharsheet.Core.Resources {
+namespace DaggerheartCharsheet.Core.Resources.Locales {
     using System;
     
     
@@ -38,7 +38,7 @@ namespace DaggerheartCharsheet.Core.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DaggerheartCharsheet.Core.Resources.Core202509", typeof(Core202509).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DaggerheartCharsheet.Core.Resources.Locales.Core202509", typeof(Core202509).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -60,20 +60,60 @@ namespace DaggerheartCharsheet.Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Base version of the game.
+        ///   Looks up a localized string similar to Seraph.
         /// </summary>
-        internal static string Description {
+        internal static string Class_Seraph {
             get {
-                return ResourceManager.GetString("Description", resourceCulture);
+                return ResourceManager.GetString("Class_Seraph", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Core 1.0 (09-2025).
+        ///   Looks up a localized string similar to Splendor.
         /// </summary>
-        internal static string Name {
+        internal static string Domain_Splendor {
             get {
-                return ResourceManager.GetString("Name", resourceCulture);
+                return ResourceManager.GetString("Domain_Splendor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Valor.
+        /// </summary>
+        internal static string Domain_Valor {
+            get {
+                return ResourceManager.GetString("Domain_Valor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DivineWielder.
+        /// </summary>
+        internal static string Subclass_Seraph_DivineWielder {
+            get {
+                return ResourceManager.GetString("Subclass_Seraph_DivineWielder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p style=&quot;text-align:center;&quot;&gt;Spellcast: STRENGTH&lt;/p&gt;
+        ///
+        ///Spirit Weapon: When you have an equipped weapon with a range of Melee or Very Close, it can fly from your hand to attack an adversary within Close range and then return to you. You can mark a Stress to target an additional adversary within range with the same attack roll.
+        ///
+        ///Sparing Touch: Once per long rest, touch a creature and clear 2 Hit Points or 2 Stress from them..
+        /// </summary>
+        internal static string Subclass_Seraph_DivineWielder_Foundation_Description {
+            get {
+                return ResourceManager.GetString("Subclass_Seraph_DivineWielder_Foundation_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WingedSentinel.
+        /// </summary>
+        internal static string Subclass_Seraph_WingedSentinel {
+            get {
+                return ResourceManager.GetString("Subclass_Seraph_WingedSentinel", resourceCulture);
             }
         }
     }

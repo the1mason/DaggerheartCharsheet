@@ -6,9 +6,6 @@ namespace DaggerheartCharsheet.Core.Models.Sheets.Core;
 
 public sealed class SeraphSheet : CommonSheet
 {
-    public DomainType DomainFirst { get; set; }
-    public DomainType DomainSecond { get; set; }
-    
     public BasicInfoSection? BasicInfo { get; set; }
     public DefenceSection? Defence { get; set; }
     public CharacteristicsSection? Characteristics { get; set; }

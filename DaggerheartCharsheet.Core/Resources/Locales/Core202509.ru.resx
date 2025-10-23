@@ -1,0 +1,44 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="Domain_Splendor" xml:space="preserve">
+        <value>Величие</value>
+    </data>
+    <data name="Domain_Valor" xml:space="preserve">
+        <value>Доблесть</value>
+    </data>
+    <data name="Class_Seraph" xml:space="preserve">
+        <value>Серафим</value>
+    </data>
+    <data name="Subclass_Seraph_DivineWielder" xml:space="preserve">
+        <value>Божественный Воитель</value>
+    </data>
+    <data name="Subclass_Seraph_WingedSentinel" xml:space="preserve">
+        <value>Крылатый Страж</value>
+    </data>
+    <data name="Subclass_Seraph_DivineWielder_Foundation_Description" xml:space="preserve">
+        <value>&lt;p style="text-align:center;"&gt;ЗАКЛИНАТЕЛЬ: СИЛА&lt;/p&gt;
+**Духовное Оружие**: Если у вас экипированно оружие с дистанцией Вплотную или Близко, 
+оно может вылететь из вашей руки, чтобы атаковать противника в пределах Средней дистанции, 
+а затем вернуться к вам. Вы можете отметить Стресс, чтобы поразить дополнительного противника 
+в пределах досягаемости используя тот же бросок атаки.  
+
+**Касание Милости**: Один раз до следующего Продолжительного отдыха 
+коснитесь существа и очистите ему *2 Раны* или *2 Стресса*.  
+        </value>
+    </data>
+</root>

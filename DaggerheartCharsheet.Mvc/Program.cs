@@ -1,18 +1,19 @@
+using DaggerheartCharsheet.Core.Locales;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add localization services
-builder.Services.AddLocalization(options =>
-{
-    options.ResourcesPath = "Resources";
-});
+builder.Services.AddLocalization(options => { options.ResourcesPath = "Resources"; });
 
-string[] supportedCultures =  ["en", "ru"];
+string[] supportedCultures = ["en", "ru"];
 builder.Services.Configure<RequestLocalizationOptions>(options =>
 {
     options.SetDefaultCulture("en");
     options.AddSupportedCultures(supportedCultures);
     options.AddSupportedUICultures(supportedCultures);
 });
+
+builder.Services.AddSingleton<LocalizationHelper>();
 
 builder.Services.AddControllersWithViews();
 
@@ -25,7 +26,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 // Add localization middleware
-var localizationOptions = app.Services.GetRequiredService<Microsoft.Extensions.Options.IOptions<RequestLocalizationOptions>>().Value;
+var localizationOptions = app.Services
+    .GetRequiredService<Microsoft.Extensions.Options.IOptions<RequestLocalizationOptions>>().Value;
 app.UseRequestLocalization(localizationOptions);
 
 app.UseStaticFiles();

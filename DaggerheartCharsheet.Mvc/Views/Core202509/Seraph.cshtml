@@ -1,15 +1,19 @@
-@using DaggerheartCharsheet.Core
-@using Microsoft.Extensions.Localization
-@using SharedResources = DaggerheartCharsheet.Mvc.SharedResources
-@inject IStringLocalizer<SharedResources> SharedLocalizer
-@inject IStringLocalizer<Core202509> Core202509Localizer
 @model DaggerheartCharsheet.Core.Models.Sheets.Core.SeraphSheet
 
 @{
     ViewBag.Title = "Seraph Sheet";
     Layout = "_Layout";
 }
-<div class="container" id="file-list">
-    <h1>@SharedLocalizer["Hello"]</h1>
-    <h1>@Core202509Localizer["Name"]</h1>
-</div>
+<form method="post" action="/test" >
+    <div class="ch-header">
+        <div class="ch-class">
+            @await Html.PartialAsync("Sections/CommonInfo", Model)
+        </div>
+        <div class="ch-basicInfo">
+            <article>
+                <p>some info here later</p>
+            </article>
+        </div>
+    </div>
+    <button type="submit">test submit</button>
+</form>

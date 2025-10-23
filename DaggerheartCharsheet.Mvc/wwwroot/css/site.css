@@ -196,3 +196,20 @@ body>header {
     background: var(--pico-danger-background);
     border-color: var(--pico-danger-background);
 }
+
+.input-light {
+    background: #ffffff02;
+    border: none;
+}
+
+.input-light:focus {
+    background: #ffffff18;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.input-light:hover {
+    background: #ffffff13;
+    border: none;
+}

@@ -1,0 +1,10 @@
+.ch-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 4px;
+    grid-row-gap: 0;
+}
+
+.ch-class { grid-area: 1 / 1 / 2 / 2; }
+.ch-basicInfo { grid-area: 1 / 2 / 2 / 5; }
