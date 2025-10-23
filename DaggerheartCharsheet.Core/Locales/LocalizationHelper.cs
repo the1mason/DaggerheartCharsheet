@@ -3,7 +3,7 @@ using Microsoft.Extensions.Localization;
 
 namespace DaggerheartCharsheet.Core.Locales;
 
-public class LocalizationHelper(IServiceProvider serviceProvider, IStringLocalizer<Core202509> coreLocalizer)
+public class LocalizationHelper(IStringLocalizer<Core202509> coreLocalizer)
 {
     public IStringLocalizer GetStringLocalizerByVersion(GameVersionType versionType) => versionType switch
     {
